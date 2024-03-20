@@ -1,0 +1,52 @@
+{
+  "members": [
+    {
+      "id": "Mizyu",
+      "name": ["Mizyu", "石井美月"],
+      "url": {
+        "instagram": "https://www.instagram.com/mizyu_leaders/",
+        "img": "/public/mizyu-img-ig.jpg"
+      }, 
+      "tag": "Fofa porém brutal",
+      "birth": "22 de dezembro de 1998",
+      "age": "25 anos",
+      "route": "/member/learn-more/mizyu"
+    },
+    {
+      "id": "Rin",
+      "name": ["Rin", "長澤凛"],
+      "url": {
+        "instagram": "https://www.instagram.com/rin_leaders/",
+        "img": "/public/rin-img-ig.png"
+      },
+      "tag": "Descolada",
+      "birth": "11 de setembro de 2001",
+      "age": "22 anos",
+      "route": "/member/learn-more/rin"
+    },
+    {
+      "id": "Suzuka",
+      "name": ["Suzuka", "金沢涼花"],
+      "url": {
+        "instagram": "https://www.instagram.com/suzuka_leaders/",
+        "img": "/public/suzuka-img-ig.jpg"
+      },
+      "tag": "Coringa",
+      "birth": "29 de novembro de 2001",
+      "age": "22 anos",
+      "route": "/member/learn-more/suzuka"
+    },
+    {
+      "id": "Kanon",
+      "name": ["Kanon", "木村カノン"],
+      "url": {
+        "instagram": "https://www.instagram.com/kanon_leaders/",
+        "img": "/public/kanon-img-ig.png"
+      },
+      "tag": "Graciosa",
+      "birth": "18 de janeiro de 2002",
+      "age": "22 anos",
+      "route": "/member/learn-more/kanon"
+    }
+  ]
+}

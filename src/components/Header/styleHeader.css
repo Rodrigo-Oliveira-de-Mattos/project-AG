@@ -1,0 +1,52 @@
+.logo {
+  margin-right: 2.5rem;
+  height: 100%;
+
+  @media (max-width: 1000px) {
+    max-width: 20rem;
+  }
+}
+
+.header-menu {
+  height: 100%;
+  gap: 2.5rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  letter-spacing: 3px;
+
+  .header-menu__sections {
+    border-radius: 100vw;
+    flex: 1;
+    display: grid;
+    place-items: center;
+    max-width: 30rem;
+    opacity: 0.7;
+    a {
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: var(--tema-claro-1);
+      width: 100%;
+      display: grid;
+      place-items: center;
+      font-size: 1.7rem;
+      height: 6rem;
+      width: 100%;
+    }
+    &:hover {
+      opacity: 1;
+      background-color: var(--tema-claro-5);
+    }
+  }
+  .header-menu__sections.active {
+    background-color: var(--tema-claro-2);
+    opacity: 0.9;
+    a {
+      color: var(--tema-claro-6);
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
