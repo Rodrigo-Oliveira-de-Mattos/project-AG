@@ -1,8 +1,16 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Fã site para ATARASHII GAKKO! - Japan Leaders -
 
-Currently, two official plugins are available:
+Site simples para armazenar algumas informações sobre meu grupo favorito de música e dança, Atarashii Gakko!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Sections
+- Hero
+    - Carrosel de imagens
+    - Apresentação sobre o grupo
+    - Links para os instagrams das integrantes
+    - Links para as plataformas onde pode-se escutar as músicas
+    - Learn more
+- Members
+    - Cards com algumas informações sobre cada uma das integrantes
+    - Links para cada instagram
+    - Learn more para cada uma
