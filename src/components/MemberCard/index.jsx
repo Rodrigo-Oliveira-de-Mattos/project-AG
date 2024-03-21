@@ -16,7 +16,6 @@ const MemberCard = ({ birth, img, instagram, name, tag, route }) => {
 
     const birthDate = new Date(birth)
     const options = { year: 'numeric', month: 'long', day: 'numeric' }
-    console.log(birthDate);
 
     return (
         <ul className="cards-members__girls--card">

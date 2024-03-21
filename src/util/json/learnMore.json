@@ -1,13 +1,32 @@
 {
   "learnMore": [
     {
-      "id": "Atarashii Gakko!",
+      "id": "AG",
       "title": [
         "Atarashii Gakko!",
         "新 し い 学校 の リ ー ダ ー ズ",
         "Japan Leaders"
       ],
-      "article": "",
+      "article": [
+        "O nome Atarashii Gakko significa “Nova Escola” em japonês. A palavra “Atarashii” (新しい) traduz-se como “novo” ou “recente”, enquanto “Gakko” (学校) significa “escola”. Portanto, o nome do grupo reflete a ideia de ser uma escola ou grupo de ídolos que traz algo fresco, inovador e diferente para o cenário musical e de entretenimento. A escolha desse nome sugere que o grupo está rompendo com as convenções e trazendo uma abordagem única e contemporânea para sua música, dança e imagem. 🎶🌟🎤",
+        "O grupo **Atarashii Gakko no Leaders** (ou 'Líderes da Nova Escola') foi criado no Japão em **2015** pela renomada agência **Asobisystem**, localizada no bairro da moda de **Harajuku**, em **Tóquio**. Essa agência lançou artistas populares como a lenda do estilo **decora-kei**, **Kyary Pamyu Pamyu**, e muitos outros. No caso do **Atarashii Gakkou no Leaders**, um conceito completamente diferente foi escolhido: criar um grupo de ídolos que se destacasse pela sua **individualidade**, **liberdade de expressão** e que se opusesse ao *'mundo intolerante, onde apenas o comportamento exemplar é valorizado'*.",
+        "O estilo do grupo se tornou tão incomum, expressivo e cativante, mas ainda assim não desprovido de fofura. O grupo estreou dois anos após sua criação, em **2017**, e brilhou com a faixa **Dokubana** ('Flor Venenosa'). O grupo se tornou tão popular que em **2021** estrearam no cenário mundial sob o nome abreviado **Atarashii Gakko!** O grupo é composto por quatro garotas: **Mizyu**, **Rin**, **Suzuka** e **Kanon**. À primeira vista, elas parecem ser garotas comuns, mas cada uma delas tem algo que quebra a imagem idealista do Japão. Por exemplo, o penteado raspado de **Rin** ou a natureza rebelde de **Suzuka**, que contrasta com sua imagem de garota exemplar com óculos. O grupo joga habilmente com o conceito de **gyappu moe** (ギャップ萌え), onde a incongruência entre a imagem e a realidade chama a atenção das pessoas.",
+        "Mas o que realmente destaca esse grupo dos demais são suas **coreografias e danças únicas**, que se tornaram verdadeiros cartões de visita do grupo. Um fato interessante é que as garotas criam as próprias coreografias para todos os seus clipes. Seu talento na arte de criar movimentos e poses incomuns é verdadeiramente impressionante. Para criar coreografias únicas e divertidas, as participantes do **Atarashii Gakko!** também incorporam elementos acrobáticos do **kumi-taiso** (組体操), uma atividade física em grupo realizada nas aulas de educação física das escolas japonesas¹³⁵."
+      ],
+
+      "fonts": [
+        { "font": "(1) Atarashii Gakko!: Reinterpretando o Conceito de Girl Band no Japão.", 
+          "url": "https://zenmarket.jp/pt/blog/post/13536/tudo-sobre-atarashii-gakkou"},
+        { "font": "(2) Atarashii Gakko!: O girl group japonês que está revolucionando a ...", 
+          "url": "https://radiojhero.com/my-j-hero-academia/2023/06/atarashii-gakko-o-girl-group-japones-que-esta-revolucionando-a-industria/."},
+        { "font": "(3) WikiPedia", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko."},
+        { "font": "(4) Atarashii Gakko, o novo fenômeno do J-POP.", 
+          "url": "https://poploading.com/2022/07/08/atarashiigakko/."},
+        { "font": "(5) Atarashii Gakko! – Wikipédia, a enciclopédia livre.", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko!."}
+      ],
+
       "swipe": [
         "/public/learn-more-slider/atarashii-gakko/1.jpg",
         "/public/learn-more-slider/atarashii-gakko/2.jpg",
@@ -44,17 +63,23 @@
         "/public/learn-more-slider/atarashii-gakko/33.jpg",
         "/public/learn-more-slider/atarashii-gakko/34.jpg",
         "/public/learn-more-slider/atarashii-gakko/35.jpg",
-        "/public/learn-more-slider/atarashii-gakko/36.jpg",       
-        "/public/learn-more-slider/atarashii-gakko/37.jpg",       
-        "/public/learn-more-slider/atarashii-gakko/38.jpg",       
+        "/public/learn-more-slider/atarashii-gakko/36.jpg",
+        "/public/learn-more-slider/atarashii-gakko/37.jpg",
+        "/public/learn-more-slider/atarashii-gakko/38.jpg",
         "/public/learn-more-slider/atarashii-gakko/39.jpg"
       ],
       "url": {
         "instagram": "https://www.instagram.com/japan_leaders/",
         "img": "/public/instagram/ag.jpg"
       },
-      "additionalInfo1": "",
-      "additionalInfo2": ""
+      "additionalInfo1": {
+        "url": "https://www.jvcmusic.co.jp/-/Artist/A025766.html",
+        "recordCompany": "🎌 Victor Entertainment"
+      },
+      "additionalInfo2": {
+        "url": "https://store.atarashiigakko.com/",
+        "recordCompany": "🗺️ 88rising"
+      }
     },
     {
       "id": "Mizyu",
