@@ -4,7 +4,7 @@ Site simples para armazenar algumas informações sobre meu grupo favorito de m�
 
 ## Sections
 - Hero
-  -- Carrosel de imagens
+-- Carrosel de imagens
   -- Apresentação sobre o grupo
   -- Links para os instagrams das integrantes
   -- Links para as plataformas onde pode-se escutar as músicas
