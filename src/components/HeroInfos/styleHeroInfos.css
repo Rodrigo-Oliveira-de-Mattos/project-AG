@@ -177,9 +177,11 @@
     letter-spacing: 2px;
 
     &:hover {
-      transform: scale(1.1);
+      transform: scalex(1.2);
+      transform: scaley(1.05);
       transition: 0.3s ease;
       letter-spacing: 5px;
+      background: var(--tema-claro-red);
     }
   }
 }

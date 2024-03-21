@@ -1,5 +1,6 @@
 .logo {
   margin-right: 2.5rem;
+  margin-left: 2rem;
   height: 100%;
 
   @media (max-width: 1000px) {
@@ -9,7 +10,7 @@
 
 .header-menu {
   height: 100%;
-  gap: 2.5rem;
+  gap: 1rem;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -20,7 +21,7 @@
     flex: 1;
     display: grid;
     place-items: center;
-    max-width: 30rem;
+    max-width: 20rem;
     opacity: 0.7;
     a {
       text-align: center;
@@ -30,7 +31,7 @@
       width: 100%;
       display: grid;
       place-items: center;
-      font-size: 1.7rem;
+      font-size: 1.6em;
       height: 6rem;
       width: 100%;
     }

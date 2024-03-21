@@ -8,8 +8,7 @@
         "img": "/public/mizyu-img-ig.jpg"
       }, 
       "tag": "Fofa porém brutal",
-      "birth": "22 de dezembro de 1998",
-      "age": "25 anos",
+      "birth": "1998-12-22",
       "route": "/member/learn-more/mizyu"
     },
     {
@@ -20,8 +19,7 @@
         "img": "/public/rin-img-ig.png"
       },
       "tag": "Descolada",
-      "birth": "11 de setembro de 2001",
-      "age": "22 anos",
+      "birth": "2001-09-11",
       "route": "/member/learn-more/rin"
     },
     {
@@ -32,8 +30,7 @@
         "img": "/public/suzuka-img-ig.jpg"
       },
       "tag": "Coringa",
-      "birth": "29 de novembro de 2001",
-      "age": "22 anos",
+      "birth": "2001-11-29",
       "route": "/member/learn-more/suzuka"
     },
     {
@@ -44,8 +41,7 @@
         "img": "/public/kanon-img-ig.png"
       },
       "tag": "Graciosa",
-      "birth": "18 de janeiro de 2002",
-      "age": "22 anos",
+      "birth": "2002-01-18",
       "route": "/member/learn-more/kanon"
     }
   ]

@@ -14,7 +14,7 @@ const Hero = () => {
 }
 
 const SectionHero = styled.section`
-  background-color: #d5deef;
+  background-color: var(--bg-color-2);
   padding-top: 10rem;
   display: flex;
   justify-content: center;

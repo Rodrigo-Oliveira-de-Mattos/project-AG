@@ -1,5 +1,4 @@
 const LinksWithTitle = ({ array, className }) => {
-    console.log(array);
     return (
         <ul className={`links__${className}`}>
             {array.map((data) => {
