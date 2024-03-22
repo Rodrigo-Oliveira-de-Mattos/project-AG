@@ -1,24 +1,18 @@
 import HeroInfos from "../../components/HeroInfos"
-import HeroSwiper from "../../components/HeroSwiper"
 import BtnChangeSection from "../../components/BtnChangeSection"
-import styled from "styled-components"
+import "./styleHero.css"
 
 const Hero = () => {
     return (
-        <SectionHero className="hero" id="hero">
-            <HeroSwiper />
+        <section className="hero" id="hero">
+            <div className="hero__img">
+                <div className="hero__img--bg-color"></div>
+                <div className="hero__img--img"></div>
+            </div>
             <HeroInfos />
             <BtnChangeSection></BtnChangeSection>
-        </SectionHero>
+        </section>
     )
 }
-
-const SectionHero = styled.section`
-  background-color: var(--bg-color-2);
-  padding-top: 10rem;
-  display: flex;
-  justify-content: center;
-  height: calc(100vh - 2rem);
-`
 
 export default Hero

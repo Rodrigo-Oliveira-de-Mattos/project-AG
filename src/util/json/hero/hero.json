@@ -7,14 +7,14 @@
     "prevInfo": "'A four-girl Japanese power group that is one part music, one part dance', all Tokyo Thrash, formed in 2015. Subverting the view built on what you think of school, order, rules and education since 2017.",
     "prevMembers": [
         {
-            "icon": "/public/icon/icon-mizyu.png",
-            "name": "Mizyu",
-            "url": "https://www.instagram.com/mizyu_leaders/"
-        },
-        {
             "icon": "/public/icon/icon-rin.png",
             "name": "Rin",
             "url": "https://www.instagram.com/rin_leaders/"
+        },
+        {
+            "icon": "/public/icon/icon-kanon.png",
+            "name": "Kanon",
+            "url": "https://www.instagram.com/kanon_leaders/"
         },
         {
             "icon": "/public/icon/icon-suzuka.png",
@@ -22,10 +22,11 @@
             "url": "https://www.instagram.com/suzuka_leaders/"
         },
         {
-            "icon": "/public/icon/icon-kanon.png",
-            "name": "Kanon",
-            "url": "https://www.instagram.com/kanon_leaders/"
+            "icon": "/public/icon/icon-mizyu.png",
+            "name": "Mizyu",
+            "url": "https://www.instagram.com/mizyu_leaders/"
         }
+
     ],
     "links": [
         {
@@ -48,21 +49,6 @@
             "name": "Instagram",
             "url": "https://www.instagram.com/japan_leaders/"
         }
-    ],
-    "slide": [
-        "/public/hero-slider/1.jpg",
-        "/public/hero-slider/2.jpg",
-        "/public/hero-slider/3.png",       
-        "/public/hero-slider/4.png",       
-        "/public/hero-slider/5.jpg",       
-        "/public/hero-slider/6.jpg",
-        "/public/hero-slider/7.png",
-        "/public/hero-slider/8.jpg"       
-    ],
-    "title-ag-obj": {
-        "title-latin": "Atarashii Gakko!",
-        "title-japan": "新 し い 学校 の リ ー ダ ー ズ",
-        "title-usa": "Japan Leaders"
-    }
+    ]
 }
 

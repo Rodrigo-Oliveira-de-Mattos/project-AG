@@ -60,6 +60,13 @@
   margin: 4rem;
   font-size: 2rem;
 
+  .learn-more {
+    width: min(calc(100vw - 80px), 1200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .additional-info {
     margin-top: 3rem;
     width: 650px;
@@ -76,16 +83,28 @@
         height: inherit;
         border-radius: 100vw;
 
-        background-color: var(--tema-claro-red);
-        opacity: 0.8;
-        transition: 0.1s ease;
-        &:hover {
+        &.record-company {
+          background-color: var(--tema-claro-red);
+          opacity: 0.8;
           transition: 0.1s ease;
-          transform: scale(1.07);
-          opacity: 1;
+          &:hover {
+            transition: 0.1s ease;
+            transform: scale(1.07);
+            opacity: 1;
+          }
+
+          a {
+            color: var(--tema-claro-1);
+            text-align: center;
+            width: 100%;
+            display: grid;
+            place-items: center;
+            height: 3.5rem;
+          }
         }
 
-        a {
+        &.dates {
+          background-color: var(--tema-claro-6);
           color: var(--tema-claro-1);
           text-align: center;
           width: 100%;

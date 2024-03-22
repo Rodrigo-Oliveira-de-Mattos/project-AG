@@ -1,7 +1,15 @@
 .logo {
   margin-right: 2.5rem;
-  margin-left: 2rem;
-  height: 100%;
+  margin-left: 1rem;
+  height: calc(100% - 4rem);
+
+  a {
+    img{
+      height: 100%;
+    }
+  }
+  
+  
 
   @media (max-width: 1000px) {
     max-width: 20rem;
@@ -22,7 +30,21 @@
     display: grid;
     place-items: center;
     max-width: 20rem;
-    opacity: 0.7;
+    opacity: 0.4;
+    position: relative;
+    height: 100%;
+
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 70%;
+      height: 7px;
+      background-color: var(--tema-claro-5);
+      opacity: 0.6;
+      border-radius: 10px 10px 0 0;
+    }
+
     a {
       text-align: center;
       font-weight: bold;
@@ -31,22 +53,25 @@
       display: grid;
       place-items: center;
       font-size: 1.6em;
-      height: 6rem;
+      height: 10rem;
       width: 100%;
     }
     &:hover {
       opacity: 1;
-      background-color: var(--tema-claro-5);
+      &::before{
+        background-color: var(--tema-claro-2);
+      }
     }
   }
   .header-menu__sections.active {
-    background-color: var(--tema-claro-2);
-    opacity: 0.9;
-    a {
-      color: var(--tema-claro-6);
-    }
+    opacity: 0.7;
     &:hover {
       opacity: 1;
+    }
+    &::before {
+      opacity: 1;
+      background-color: var(--tema-claro-2);
+
     }
   }
 }

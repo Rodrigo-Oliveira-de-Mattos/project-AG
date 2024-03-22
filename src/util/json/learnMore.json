@@ -13,7 +13,6 @@
         "O estilo do grupo se tornou tão incomum, expressivo e cativante, mas ainda assim não desprovido de fofura. O grupo estreou dois anos após sua criação, em **2017**, e brilhou com a faixa **Dokubana** ('Flor Venenosa'). O grupo se tornou tão popular que em **2021** estrearam no cenário mundial sob o nome abreviado **Atarashii Gakko!** O grupo é composto por quatro garotas: **Mizyu**, **Rin**, **Suzuka** e **Kanon**. À primeira vista, elas parecem ser garotas comuns, mas cada uma delas tem algo que quebra a imagem idealista do Japão. Por exemplo, o penteado raspado de **Rin** ou a natureza rebelde de **Suzuka**, que contrasta com sua imagem de garota exemplar com óculos. O grupo joga habilmente com o conceito de **gyappu moe** (ギャップ萌え), onde a incongruência entre a imagem e a realidade chama a atenção das pessoas.",
         "Mas o que realmente destaca esse grupo dos demais são suas **coreografias e danças únicas**, que se tornaram verdadeiros cartões de visita do grupo. Um fato interessante é que as garotas criam as próprias coreografias para todos os seus clipes. Seu talento na arte de criar movimentos e poses incomuns é verdadeiramente impressionante. Para criar coreografias únicas e divertidas, as participantes do **Atarashii Gakko!** também incorporam elementos acrobáticos do **kumi-taiso** (組体操), uma atividade física em grupo realizada nas aulas de educação física das escolas japonesas¹³⁵."
       ],
-
       "fonts": [
         { "font": "(1) Atarashii Gakko!: Reinterpretando o Conceito de Girl Band no Japão.", 
           "url": "https://zenmarket.jp/pt/blog/post/13536/tudo-sobre-atarashii-gakkou"},
@@ -26,7 +25,6 @@
         { "font": "(5) Atarashii Gakko! – Wikipédia, a enciclopédia livre.", 
           "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko!."}
       ],
-
       "swipe": [
         "/public/learn-more-slider/atarashii-gakko/1.jpg",
         "/public/learn-more-slider/atarashii-gakko/2.jpg",
@@ -84,7 +82,19 @@
     {
       "id": "Mizyu",
       "title": ["Mizyu", "石井美月"],
-      "article": "",
+      "article": [""],
+      "fonts": [
+        { "font": "(1) Atarashii Gakko!: Reinterpretando o Conceito de Girl Band no Japão.", 
+          "url": "https://zenmarket.jp/pt/blog/post/13536/tudo-sobre-atarashii-gakkou"},
+        { "font": "(2) Atarashii Gakko!: O girl group japonês que está revolucionando a ...", 
+          "url": "https://radiojhero.com/my-j-hero-academia/2023/06/atarashii-gakko-o-girl-group-japones-que-esta-revolucionando-a-industria/."},
+        { "font": "(3) WikiPedia", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko."},
+        { "font": "(4) Atarashii Gakko, o novo fenômeno do J-POP.", 
+          "url": "https://poploading.com/2022/07/08/atarashiigakko/."},
+        { "font": "(5) Atarashii Gakko! – Wikipédia, a enciclopédia livre.", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko!."}
+      ],
       "swipe": [
         "/public/learn-more-slider/mizyu/1.jpg",
         "/public/learn-more-slider/mizyu/2.jpg",
@@ -129,13 +139,25 @@
         "instagram": "https://www.instagram.com/mizyu_leaders/",
         "img": "/public/instagram/mizyu.jpg"
       },
-      "additionalInfo1": "",
+      "additionalInfo1": "1998-12-22",
       "additionalInfo2": ""
     },
     {
       "id": "Rin",
       "title": ["Rin", "長澤凛"],
-      "article": "❌韻",
+      "article": ["❌韻"],
+      "fonts": [
+        { "font": "(1) Atarashii Gakko!: Reinterpretando o Conceito de Girl Band no Japão.", 
+          "url": "https://zenmarket.jp/pt/blog/post/13536/tudo-sobre-atarashii-gakkou"},
+        { "font": "(2) Atarashii Gakko!: O girl group japonês que está revolucionando a ...", 
+          "url": "https://radiojhero.com/my-j-hero-academia/2023/06/atarashii-gakko-o-girl-group-japones-que-esta-revolucionando-a-industria/."},
+        { "font": "(3) WikiPedia", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko."},
+        { "font": "(4) Atarashii Gakko, o novo fenômeno do J-POP.", 
+          "url": "https://poploading.com/2022/07/08/atarashiigakko/."},
+        { "font": "(5) Atarashii Gakko! – Wikipédia, a enciclopédia livre.", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko!."}
+      ],
       "swipe": [
         "/public/learn-more-slider/rin/1.jpg",
         "/public/learn-more-slider/rin/2.jpg",
@@ -178,13 +200,25 @@
         "instagram": "https://www.instagram.com/rin_leaders/",
         "img": "/public/instagram/rin.jpg"
       },
-      "additionalInfo1": "",
+      "additionalInfo1": "2001-09-11",
       "additionalInfo2": ""
     },
     {
       "id": "Suzuka",
       "title": ["Suzuka", "金沢涼花"],
-      "article": "😝",
+      "article": ["😝"],
+      "fonts": [
+        { "font": "(1) Atarashii Gakko!: Reinterpretando o Conceito de Girl Band no Japão.", 
+          "url": "https://zenmarket.jp/pt/blog/post/13536/tudo-sobre-atarashii-gakkou"},
+        { "font": "(2) Atarashii Gakko!: O girl group japonês que está revolucionando a ...", 
+          "url": "https://radiojhero.com/my-j-hero-academia/2023/06/atarashii-gakko-o-girl-group-japones-que-esta-revolucionando-a-industria/."},
+        { "font": "(3) WikiPedia", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko."},
+        { "font": "(4) Atarashii Gakko, o novo fenômeno do J-POP.", 
+          "url": "https://poploading.com/2022/07/08/atarashiigakko/."},
+        { "font": "(5) Atarashii Gakko! – Wikipédia, a enciclopédia livre.", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko!."}
+      ],
       "swipe": [
         "/public/learn-more-slider/suzuka/1.jpg",
         "/public/learn-more-slider/suzuka/2.jpg",
@@ -230,13 +264,25 @@
         "instagram": "https://www.instagram.com/suzuka_leaders/",
         "img": "/public/instagram/suzuka.jpg"
       },
-      "additionalInfo1": "",
+      "additionalInfo1": "2001-11-29",
       "additionalInfo2": ""
     },
     {
       "id": "Kanon",
       "title": ["Kanon", "木村カノン"],
-      "article": "",
+      "article": [""],
+      "fonts": [
+        { "font": "(1) Atarashii Gakko!: Reinterpretando o Conceito de Girl Band no Japão.", 
+          "url": "https://zenmarket.jp/pt/blog/post/13536/tudo-sobre-atarashii-gakkou"},
+        { "font": "(2) Atarashii Gakko!: O girl group japonês que está revolucionando a ...", 
+          "url": "https://radiojhero.com/my-j-hero-academia/2023/06/atarashii-gakko-o-girl-group-japones-que-esta-revolucionando-a-industria/."},
+        { "font": "(3) WikiPedia", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko."},
+        { "font": "(4) Atarashii Gakko, o novo fenômeno do J-POP.", 
+          "url": "https://poploading.com/2022/07/08/atarashiigakko/."},
+        { "font": "(5) Atarashii Gakko! – Wikipédia, a enciclopédia livre.", 
+          "url": "https://pt.wikipedia.org/wiki/Atarashii_Gakko!."}
+      ],
       "swipe": [
         "/public/learn-more-slider/kanon/1.jpg",
         "/public/learn-more-slider/kanon/2.jpg",
@@ -281,7 +327,7 @@
         "instagram": "https://www.instagram.com/kanon_leaders/",
         "img": "/public/instagram/kanon.jpg"
       },
-      "additionalInfo1": "",
+      "additionalInfo1": "2002-01-18",
       "additionalInfo2": ""
     }
   ]

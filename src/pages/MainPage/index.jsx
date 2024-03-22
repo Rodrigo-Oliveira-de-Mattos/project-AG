@@ -8,8 +8,11 @@ const MainPage = () => {
         <>
             <Header />
             <main>
-                <div className="bg-img-city">
+                <div className="bg-img-hero">
+                    <div className="bg-color-hero"></div>
                     <Hero />
+                </div>
+                <div className="bg-img-city">
                     <Members />
                     {/* <Albuns /> */}
                 </div>
