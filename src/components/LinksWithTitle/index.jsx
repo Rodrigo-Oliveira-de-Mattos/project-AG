@@ -1,9 +1,9 @@
 const LinksWithTitle = ({ array, className }) => {
     return (
         <ul className={`links__${className}`}>
-            {array.map((data) => {
+            {array.map((data, index) => {
                 return (
-                    <li key={data.name}><a href={data.url} target="_blank">
+                    <li key={index}><a href={data.url} target="_blank">
                         {data.name}
                         <img className="icon" src={data.icon} alt={data.name} />
                     </a></li>

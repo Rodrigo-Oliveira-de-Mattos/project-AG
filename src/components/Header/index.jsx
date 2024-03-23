@@ -4,16 +4,41 @@ import { useState, useEffect } from "react"
 
 function Header() {
 
+    // const [teste, setTeste] = useState(<li className="header-menu__sections"><a href="#music">teste</a></li>)
+
     const [heroClass, setHeroClass] = useState("header-menu__sections active")
     const [membersClass, setMembersClass] = useState("header-menu__sections")
     const [albunsClass, setAlbunsClass] = useState("header-menu__sections")
     const [musicClass, setMusicClass] = useState("header-menu__sections")
-    const windowScroll = window.scroll();
+    const heroHeight = 700
+    const memberHeight = heroHeight + 800
+    const albumHeight = memberHeight + 700
+    let position = window.pageYOffset
 
-    // se a altura da tela estiver entre 0 e heroHeight, então "header-menu__sections active"
-    // se a altura da tela estiver entre heroHeight e memberHeight, então "header-menu__sections active"
-    // se a altura da tela estiver entre memberHeight e albumHeight, então "header-menu__sections active"
-    // se a altura da tela estiver maior albumHeight, então "header-menu__sections active"
+    window.onscroll = () => {
+        position = window.pageYOffset
+        if (position >= 0 && position <= heroHeight) {
+            setHeroClass("header-menu__sections active")
+            setMembersClass("header-menu__sections")
+            setAlbunsClass("header-menu__sections")
+            setMusicClass("header-menu__sections")
+        } else if (position > heroHeight && position <= memberHeight) {
+            setHeroClass("header-menu__sections")
+            setMembersClass("header-menu__sections active")
+            setAlbunsClass("header-menu__sections")
+            setMusicClass("header-menu__sections")
+        } else if (position > memberHeight && position <= albumHeight) {
+            setHeroClass("header-menu__sections")
+            setMembersClass("header-menu__sections")
+            setAlbunsClass("header-menu__sections active")
+            setMusicClass("header-menu__sections")
+        } else if (position > albumHeight) {
+            setHeroClass("header-menu__sections")
+            setMembersClass("header-menu__sections")
+            setAlbunsClass("header-menu__sections")
+            setMusicClass("header-menu__sections active")
+        }
+    };
     
     useEffect(() => {
         let atualActive = document.querySelector(".active")
@@ -27,11 +52,6 @@ function Header() {
         });
     }, [])
 
-    useEffect(() => {
-    console.log(window);
-
-    })
-
     return (
         <HeaderMainPage className="header-main-page">
             <div className="logo">
@@ -43,8 +63,9 @@ function Header() {
                 <ul className="header-menu">
                     <li className={heroClass}><a href="#hero">Atarashii Gakko!</a></li>
                     <li className={membersClass}><a href="#members">Members</a></li>
-                    <li className={albunsClass}><a href="#albuns">Albums</a></li>
+                    <li className={albunsClass}><a href="#albums">Albums</a></li>
                     <li className={musicClass}><a href="#music">Music</a></li>
+                    {/* {teste} */}
                 </ul>
             </nav>
 

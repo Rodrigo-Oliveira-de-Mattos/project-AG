@@ -1,6 +1,7 @@
+import Header from "../../components/Header"
 import Hero from "../../subPages/Hero"
 import Members from "../../subPages/Members"
-import Header from "../../components/Header"
+import Albums from "../../subPages/Albums"
 
 
 const MainPage = () => {
@@ -14,7 +15,7 @@ const MainPage = () => {
                 </div>
                 <div className="bg-img-city">
                     <Members />
-                    {/* <Albuns /> */}
+                    <Albums />
                 </div>
                 {/* <Music /> */}
             </main>

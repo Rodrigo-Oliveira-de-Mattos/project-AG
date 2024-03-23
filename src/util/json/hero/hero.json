@@ -31,22 +31,22 @@
     "links": [
         {
             "icon": "/public/icon/spotify.png",
-            "name": "Spotify",
+            "name": " ",
             "url": "https://open.spotify.com/artist/4OfU76YhPU04wlmbVFFgTJ?autoplay=true"
         },
         {
             "icon": "/public/icon/youtube.png",
-            "name": "YouTube",
+            "name": " ",
             "url": "https://www.youtube.com/channel/UCp0iCvHGMwyfPHpYq7n2sPw"
         },
         {
             "icon": "/public/icon/apple-music.png",
-            "name": "Apple Music",
+            "name": " ",
             "url": "https://music.apple.com/br/artist/atarashii-gakko/1231338664"
         },
         {
             "icon": "/public/icon/instagram.png",
-            "name": "Instagram",
+            "name": " ",
             "url": "https://www.instagram.com/japan_leaders/"
         }
     ]

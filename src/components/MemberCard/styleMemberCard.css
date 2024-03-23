@@ -72,23 +72,29 @@
   }
 
   .card-btn {
+    display: flex;
+    justify-content: center;
     .learn-more-members {
       background-color: var(--tema-claro-5);
       border: none;
       border-radius: 2rem;
-      padding: 1.5rem 2rem;
       cursor: pointer;
       height: 4rem;
       width: 20rem;
       font-size: 0.5em;
       letter-spacing: 2px;
-      color: var(--tema-claro-1);
       transition: 0.3s ease;
+      display: grid;
+      place-items: center;
       &:hover {
         transform: scale(1.2);
         background-color: var(--tema-claro-6);
         transition: 0.3s ease;
         letter-spacing: 5px;
+      }
+
+      p{
+      color: var(--tema-claro-1);
       }
     }
   }
