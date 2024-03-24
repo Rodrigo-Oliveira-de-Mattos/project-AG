@@ -1,0 +1,137 @@
+.album-swipe__img.prev.animationNext {
+  animation: next-animation-prev 0.5s ease-in-out infinite;
+}
+.album-swipe__img.active.animationNext {
+  animation: next-animation-active 0.5s ease-in-out infinite;
+}
+.album-swipe__img.next.animationNext {
+  animation: next-animation-next 0.5s ease-in-out infinite;
+}
+.album-swipe__img.other.animationNext {
+  animation: next-animation-other 0.5s ease-in-out infinite;
+}
+
+@keyframes next-animation-prev {
+  0% {
+    top: 7.4rem;
+    left: 0;
+    z-index: 0;
+  }
+  100% {
+    top: -13px;
+    left: 22.6rem;
+    transform: scale(0.9);
+    z-index: 0;
+  }
+}
+
+@keyframes next-animation-active {
+  0% {
+    bottom: 0;
+    left: 20rem;
+    z-index: 2;
+  }
+  100% {
+    z-index: 2;
+    bottom: 5rem;
+    left: -2.7rem;
+    transform: scale(0.83);
+  }
+}
+
+@keyframes next-animation-next {
+  0% {
+    bottom: 7.4rem;
+    right: 0;
+    z-index: 4;
+  }
+  100% {
+    z-index: 4;
+    bottom: 25px;
+    right: 22.5rem;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes next-animation-other {
+  0% {
+    z-index: 1;
+    bottom: 0;
+    right: 24rem;
+  }
+  100% {
+    transform: scale(1.11);
+    z-index: 1;
+    top: 8.7rem;
+    right: 12px;
+  }
+}
+
+.album-swipe__img.prev.animationPrev {
+  animation: prev-animation-prev 0.5s ease-in-out infinite;
+}
+.album-swipe__img.active.animationPrev {
+  animation: prev-animation-active 0.5s ease-in-out infinite;
+}
+.album-swipe__img.next.animationPrev {
+  animation: prev-animation-next 0.5s ease-in-out infinite;
+}
+.album-swipe__img.other.animationPrev {
+  animation: prev-animation-other 0.5s ease-in-out infinite;
+}
+
+@keyframes prev-animation-prev {
+  0% {
+    bottom: 7.4rem;
+    left: 0;
+    z-index: 4;
+  }
+  100% {
+    z-index: 4;
+    bottom: 25px;
+    left: 22.55rem;
+    transform: scale(1.2);
+  }
+}
+
+@keyframes prev-animation-active {
+  0% {
+    bottom: 0;
+    right: 20rem;
+    z-index: 2;
+  }
+  100% {
+    z-index: 2;
+    bottom: 5rem;
+    right: -2.7rem;
+    transform: scale(0.83);
+  }
+}
+
+@keyframes prev-animation-next {
+  0% {
+    top: 7.4rem;
+    right: 0;
+    z-index: 0;
+  }
+  100% {
+    top: -13px;
+    right: 22.6rem;
+    transform: scale(0.9);
+    z-index: 0;
+  }
+}
+
+@keyframes prev-animation-other {
+  0% {
+    z-index: 1;
+    top: 0;
+    left: 24rem;
+  }
+  100% {
+    transform: scale(1.11);
+    z-index: 1;
+    top: 8.7rem;
+    left: 12px;
+  }
+}

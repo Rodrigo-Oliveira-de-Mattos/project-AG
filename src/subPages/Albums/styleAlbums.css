@@ -1,11 +1,13 @@
 .albums {
   height: calc(100vh - 100px);
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     var(--bg-color-3) 0%,
-    var(--bg-color-2) 4%,
-    var(--bg-color-3) 100%
-  );
+    var(--bg-color-2) 30%,
+    var(--bg-color-3) 60%
+  ); */
+
+  background: radial-gradient(var(--bg-color-2), var(--bg-color-3));
 }
 
 .swipe-disc {
@@ -17,8 +19,7 @@
   padding: 5rem;
 
   .swipe-disc__mini-info {
-    background: linear-gradient(
-      180deg,
+    background: radial-gradient(
       var(--tema-claro-1) 80%,
       var(--tema-claro-2) 100%
     );
@@ -28,14 +29,15 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 57rem;
     padding: 2.4rem 2.4rem;
     gap: 2.4rem;
 
     .mini-info {
       display: flex;
       align-items: end;
+      width: 51.5rem;
       justify-content: center;
-      width: fit-content;
       gap: 1rem;
 
       &.title {
@@ -57,7 +59,7 @@
           justify-content: start;
         }
 
-        .mini-info.year{
+        .mini-info.year {
           justify-content: end;
         }
       }
@@ -115,18 +117,15 @@
     z-index: 0;
 
     img {
+      border-radius: 1.5rem;
       &.cd {
+        filter: grayscale(0.7);
         position: absolute;
         border-radius: 999px;
       }
       &.album-cover {
         position: relative;
       }
-    }
-
-    &:not(.active):hover {
-      transform: scale(1.1);
-      transition: 0.3s ease;
     }
 
     &.active {
@@ -148,24 +147,23 @@
 
     &.next,
     &.prev {
-      z-index: 3;
-      opacity: 0.9;
       img {
         height: 25rem;
       }
     }
 
     &.next {
+      z-index: 3;
       right: 0;
     }
 
     &.prev {
+      z-index: 2;
       left: 0px;
     }
 
     &.other {
       top: 0;
-      opacity: 0.8;
       filter: grayscale(0.3);
       img {
         height: 22.5rem;
