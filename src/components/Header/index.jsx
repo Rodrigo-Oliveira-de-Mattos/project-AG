@@ -3,9 +3,6 @@ import "./styleHeader.css"
 import { useState, useEffect } from "react"
 
 function Header() {
-
-    // const [teste, setTeste] = useState(<li className="header-menu__sections"><a href="#music">teste</a></li>)
-
     const [heroClass, setHeroClass] = useState("header-menu__sections active")
     const [membersClass, setMembersClass] = useState("header-menu__sections")
     const [albunsClass, setAlbunsClass] = useState("header-menu__sections")
@@ -65,7 +62,6 @@ function Header() {
                     <li className={membersClass}><a href="#members">Members</a></li>
                     <li className={albunsClass}><a href="#albums">Albums</a></li>
                     <li className={musicClass}><a href="#music">Music</a></li>
-                    {/* {teste} */}
                 </ul>
             </nav>
 
@@ -83,7 +79,7 @@ const HeaderMainPage = styled.header`
     width: 100%;
     padding: 0 2rem;
     position: fixed;
-    z-index: 4;
+    z-index: 999;
     letter-spacing: 2px;
     nav {
     flex: 1;

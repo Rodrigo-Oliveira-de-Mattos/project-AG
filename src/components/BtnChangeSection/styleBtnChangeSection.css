@@ -2,12 +2,11 @@
     position: absolute;
     bottom: 0;
     font-size: 5em;
-    z-index: 1;
-    border-radius: 50%;
-    animation: bunce 1s infinite;
+    z-index: 1000;
+    animation: arrow 1.5s infinite ease-in-out;
 }
 
-@keyframes bunce {
+@keyframes arrow {
     0%{
         transform: translateY(0);
     }

@@ -37,7 +37,7 @@
   flex: 1;
   background-position: left;
   height: 100%;
-  width: 100%;
+  max-width: 100%;
   position: relative;
   display: grid;
   place-items: center;
