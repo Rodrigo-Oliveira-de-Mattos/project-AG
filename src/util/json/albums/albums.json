@@ -5,28 +5,60 @@
             "cover": "/public/albums/2018-maenarawanai.jpg",
             "year": "2018",
             "tracks": "10",
-            "info": ""
+            "recordCompany": "Victor Entertainment",
+            "format": "Album",
+            "font": {
+                "name": "J-Pop Wiki",
+                "url": "https://jpop.fandom.com/wiki/Maenarawanai#Album_Information"
+            },
+            "info": {
+                "presentation": "マエナラワナイ (Maenarawanai) is the first album released by Atarashii Gakkou no Leaders. It was released on March 20, 2018."
+            }
         },
         {
             "name": "Wakage Ga Itaru",
             "cover": "/public/albums/2019-wakage-ga-itaru.jpg",
             "year": "2019",
             "tracks": "11",
-            "info": ""
+            "recordCompany": "Victor Entertainment",
+            "format": "Album",
+            "font": {
+                "name": "J-Pop Wiki",
+                "url": "https://jpop.fandom.com/wiki/Wakage_ga_Itaru"
+            },
+            "info": {
+                "presentation": "若気ガイタル (Wakage ga Itaru) is the second album released by Atarashii Gakkou no Leaders. It was released on March 6, 2019. It was released in two editions, the limited edition came with a DVD."
+            }
         },
         {
             "name": "SNACKTIME",
             "cover": "/public/albums/2021-snacktime.jpg",
             "year": "2021",
             "tracks": "5",
-            "info": ""
+            "recordCompany": "88rising",
+            "format": "Digital EP",
+            "font": {
+                "name": "J-Pop Wiki",
+                "url": "https://jpop.fandom.com/wiki/SNACKTIME"
+            },
+            "info": {
+                "presentation": "SNACKTIME is the 1st digital EP released by Atarashii Gakkou no Leaders. It was released on November 12, 2021"
+            }
         },
         {
             "name": "ICHIJIKIKOKU",
             "cover": "/public/albums/2023-ichijikikoku.jpg",
             "year": "2023",
             "tracks": "6",
-            "info": ""
+            "recordCompany": "88rising",
+            "format": "Digital EP",
+            "font": {
+                "name": "J-Pop Wiki",
+                "url": "https://jpop.fandom.com/wiki/Ichiji_Kikoku#Album_Information"
+            },
+            "info": {
+                "presentation": "Ichiji Kikoku, ou 時帰国. Is the second digital EP by Atarashii Gakkou no Leaders. It was released on April 12, 2023. This EP is the first to feature works by japanese producers since their debut with 88rising."
+            }
         }
     ]
 }

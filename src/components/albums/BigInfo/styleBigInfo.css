@@ -1,0 +1,84 @@
+.big-info {
+    align-self: center;
+    background-color: var(--tema-claro-1);
+    box-shadow: 0 0 17rem 1rem var(--tema-claro-2) inset,
+      0 0 1rem var(--tema-claro-4);
+    height: 63rem;
+    width: 40rem;
+    margin: 0 auto;
+    padding: 5rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 3rem;
+    gap: 4rem;
+    cursor: default;
+  
+    .big-info__format {
+      font-size: 1.5em;
+      text-align: start;
+      color: var(--tema-claro-6);
+      font-weight: bolder;
+    }
+  
+    .big-info__infos {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      letter-spacing: 0.5px;
+      p {
+        font-size: 0.77em;
+      }
+      i {
+        width: 100%;
+        text-align: end;
+  
+        a {
+          font-size: 0.7em;
+          text-decoration: underline;
+          color: var(--tema-claro-5);
+          &:hover{
+            color: var(--tema-claro-3);
+          }
+        }
+      }
+    }
+    .big-info__record-company {
+      font-size: 0.7em;
+      text-align: center;
+      background-color: var(--tema-claro-red);
+      color: var(--tema-claro-1);
+      border-radius: 100vw;
+      padding: 1.2rem;
+    }
+  
+    .big-info__div {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 2rem;
+  
+      .big-info--year,
+      .big-info--tracks {
+        display: flex;
+        align-items: end;
+        width: 13rem;
+        gap: 2rem;
+        transition: .2s ease-in-out;
+        &:hover {
+          p:nth-child(odd){
+            transform: scale(1.2);
+            transition: .2s ease-in-out;
+          }
+        }
+      }
+  
+      .big-info--year {
+        justify-content: end;
+      }
+      .big-info--tracks {
+        justify-content: start;
+      }
+    }
+  }

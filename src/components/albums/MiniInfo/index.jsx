@@ -1,8 +1,8 @@
 const MiniInfo = ( { miniInfo } ) => {
     return (
-        <div className="swipe-disc__mini-info">
+    <div className="swipe-disc__mini-info">
         <h4 className="mini-info title">{miniInfo.name}</h4>
-        <div className="mini-info div">
+        {/* <div className="mini-info div">
             <div className="mini-info year">
                 <p>💘</p>
                 <p>{miniInfo.year}</p>
@@ -16,7 +16,7 @@ const MiniInfo = ( { miniInfo } ) => {
             <button>
                 +
             </button>
-        </div>
+        </div> */}
     </div>
     )
 }
