@@ -8,7 +8,7 @@ const BigInfo = ({ info }) => {
             </div>
             <div className="big-info__infos">
                 <p>{info.info.presentation}</p>
-                <i><a href="{info.font.url}" target="_blank">{info.font.name}</a></i>
+                <i><a href={info.font.url} target="_blank">{info.font.name}</a></i>
             </div>
             <div className="big-info__record-company">{info.recordCompany}</div>
             <div className="big-info__div">

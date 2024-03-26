@@ -1,6 +1,7 @@
 {
     "albums": [
         {
+            "id": 0,
             "name": "Maenarawanai",
             "cover": "/public/albums/2018-maenarawanai.jpg",
             "year": "2018",
@@ -13,9 +14,11 @@
             },
             "info": {
                 "presentation": "マエナラワナイ (Maenarawanai) is the first album released by Atarashii Gakkou no Leaders. It was released on March 20, 2018."
-            }
+            },
+            "linkListSpotify": "https://open.spotify.com/intl-pt/album/3HmOMYSlIlHBPwSHl3POgb?si=Cbg1BZn1R3a-RJ2OEIidbQ"
         },
         {
+            "id": 1,
             "name": "Wakage Ga Itaru",
             "cover": "/public/albums/2019-wakage-ga-itaru.jpg",
             "year": "2019",
@@ -28,9 +31,11 @@
             },
             "info": {
                 "presentation": "若気ガイタル (Wakage ga Itaru) is the second album released by Atarashii Gakkou no Leaders. It was released on March 6, 2019. It was released in two editions, the limited edition came with a DVD."
-            }
+            },
+            "linkListSpotify": "https://open.spotify.com/intl-pt/album/7wN4b7hcoWOabX4PKu73pi?si=6e8Qu4QXRqOU4HccF3iEOg"
         },
         {
+            "id": 2,
             "name": "SNACKTIME",
             "cover": "/public/albums/2021-snacktime.jpg",
             "year": "2021",
@@ -43,9 +48,11 @@
             },
             "info": {
                 "presentation": "SNACKTIME is the 1st digital EP released by Atarashii Gakkou no Leaders. It was released on November 12, 2021"
-            }
+            },
+            "linkListSpotify": "https://open.spotify.com/intl-pt/album/6Vci9acXtnQmjXi2miyovb?si=_nTlQz2_R4CkhTjgIJ6q-Q"
         },
         {
+            "id": 3,
             "name": "ICHIJIKIKOKU",
             "cover": "/public/albums/2023-ichijikikoku.jpg",
             "year": "2023",
@@ -58,7 +65,8 @@
             },
             "info": {
                 "presentation": "Ichiji Kikoku, ou 時帰国. Is the second digital EP by Atarashii Gakkou no Leaders. It was released on April 12, 2023. This EP is the first to feature works by japanese producers since their debut with 88rising."
-            }
+            },
+            "linkListSpotify": "https://open.spotify.com/intl-pt/album/6Ah0YGqpd7Dg6zB35ojUQz?si=kjtdtUk_Su6HE5qandI9QA"
         }
     ]
 }

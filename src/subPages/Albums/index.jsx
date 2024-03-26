@@ -5,6 +5,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import BigInfo from "../../components/albums/BigInfo";
 import SwipeDisc from "../../components/albums/SwipeDisc";
+import AlbumSpotify from "../../components/albums/AlbumSpotify";
 
 const Albums = () => {
     const [index, setIndex] = useState(0);
@@ -15,12 +16,20 @@ const Albums = () => {
     const [mouseOut, setMouseOut] = useState(true)
 
     useEffect(() => {
-        const tela = document.querySelector('#swipe-disc')
+        const album = document.querySelector('#swipe-disc')
+        const spotify = document.querySelector('.iframeSpotify')
 
-        tela.addEventListener("mouseover", () => {
+        album.addEventListener("mouseover", () => {
             setMouseOut(false)
         })
-        tela.addEventListener("mouseleave", () => {
+        album.addEventListener("mouseleave", () => {
+            setMouseOut(true)
+        })
+
+        spotify.addEventListener("mouseover", () => {
+            setMouseOut(false)
+        })
+        spotify.addEventListener("mouseleave", () => {
             setMouseOut(true)
         })
     })
@@ -108,6 +117,16 @@ const Albums = () => {
             setAlbumsInfo(albums[index]);
         }, 500);
     }, [index])
+    useEffect(() => {
+        const hidden = document.querySelectorAll('.iframeSpotify')
+        hidden.forEach((item) => {
+            item.classList.remove('show')
+            item.classList.add('hidden')
+        })
+
+        hidden[index].classList.remove('hidden')
+        hidden[index].classList.add('show')
+    }, [index])
 
     function handlePrevIndex() {
         index > 0 ? setIndex(index - 1) : setIndex(3);
@@ -126,6 +145,8 @@ const Albums = () => {
                 <SwipeDisc info={albumsInfo} />
                 <button className="nextButton" onClick={() => handleNextIndex()}></button>
             </div>
+
+            <AlbumSpotify link={ albums } />
         </section>
     )
 }
