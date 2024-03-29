@@ -40,6 +40,22 @@ function Header() {
         });
     }, [])
 
+    function handleChecked() {
+        const checkbox = document.querySelector("#check-hamburguer")
+        const mobileMenu = document.querySelector('.header-menu')
+        const hamburguer = document.querySelector(".btn")
+
+        if (checkbox.checked) {
+            hamburguer.classList.remove('not-active')
+            hamburguer.classList.add('active')
+            mobileMenu.classList.remove('hidden')
+        } else if (!checkbox.checked) {
+            hamburguer.classList.remove('active')
+            hamburguer.classList.add('not-active')
+            mobileMenu.classList.add('hidden')
+        }
+    }
+
     return (
         <HeaderMainPage className="header-main-page">
             <Logo className="logo">
@@ -48,15 +64,20 @@ function Header() {
                 </a>
             </Logo>
             <nav role="navigation">
+
                 <div id="menuToggle">
                     <div className="hamburguer">
-                        <input type="checkbox" />
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <input onClick={handleChecked} id="check-hamburguer" type="checkbox" />
+                        <div class="btn not-active">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
 
-                    <UlMenu className="header-menu">
+
+
+                    <UlMenu className="header-menu hidden">
                         <li className={heroClass}><a href="#hero">Atarashii Gakko!</a></li>
                         <li className={membersClass}><a href="#members">Members</a></li>
                         <li className={albunsClass}><a href="#albums">Albums</a></li>
