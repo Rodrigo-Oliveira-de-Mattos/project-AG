@@ -1,0 +1,23 @@
+@media (width < 1400px) {
+  #albums {
+    padding: 0 4rem;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+
+    .album-spotify {
+      display: none;
+    }
+  }
+}
+
+@media (width >= 769px) {
+  .hamburguer {
+    display: none;
+  }
+}
+
+@media (width > 1200px) {
+  #year, #tracks, #mini-learn-more{
+    display: none;
+  }
+}

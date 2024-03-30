@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import "./styleHeaderHamburguer.css"
 import { useState, useEffect } from "react"
 
 function Header() {
@@ -94,7 +93,7 @@ const HeaderMainPage = styled.header`
     // background-color: var(--tema-claro-6);
 
     background: rgba(57, 88, 134, 0.9);
-    box-shadow: 0 8px 32px 10px rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 64px -5px rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(3px);
 

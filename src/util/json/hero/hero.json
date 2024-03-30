@@ -1,54 +1,52 @@
 {
-    "titleAg": [
-        "Atarashii Gakko!",
-        "新 し い 学校 の リ ー ダ ー ズ",
-        "Japan Leaders"
-    ],
-    "prevInfo": "'A four-girl Japanese power group that is one part music, one part dance', all Tokyo Thrash, formed in 2015. Subverting the view built on what you think of school, order, rules and education since 2017.",
-    "prevMembers": [
-        {
-            "icon": "/public/icon/icon-rin.png",
-            "name": "Rin",
-            "url": "https://www.instagram.com/rin_leaders/"
-        },
-        {
-            "icon": "/public/icon/icon-kanon.png",
-            "name": "Kanon",
-            "url": "https://www.instagram.com/kanon_leaders/"
-        },
-        {
-            "icon": "/public/icon/icon-suzuka.png",
-            "name": "Suzuka",
-            "url": "https://www.instagram.com/suzuka_leaders/"
-        },
-        {
-            "icon": "/public/icon/icon-mizyu.png",
-            "name": "Mizyu",
-            "url": "https://www.instagram.com/mizyu_leaders/"
-        }
-
-    ],
-    "links": [
-        {
-            "icon": "/public/icon/spotify.png",
-            "name": " ",
-            "url": "https://open.spotify.com/artist/4OfU76YhPU04wlmbVFFgTJ?autoplay=true"
-        },
-        {
-            "icon": "/public/icon/youtube.png",
-            "name": " ",
-            "url": "https://www.youtube.com/channel/UCp0iCvHGMwyfPHpYq7n2sPw"
-        },
-        {
-            "icon": "/public/icon/apple-music.png",
-            "name": " ",
-            "url": "https://music.apple.com/br/artist/atarashii-gakko/1231338664"
-        },
-        {
-            "icon": "/public/icon/instagram.png",
-            "name": " ",
-            "url": "https://www.instagram.com/japan_leaders/"
-        }
-    ]
+  "titleAg": [
+    "Atarashii Gakko!",
+    "新 し い 学校 の リ ー ダ ー ズ",
+    "Japan Leaders"
+  ],
+  "prevInfo": "'A four-girl Japanese power group that is one part music, one part dance', all Tokyo Thrash, formed in 2015. Subverting the view built on what you think of school, order, rules and education since 2017.",
+  "prevMembers": [
+    {
+      "icon": "/public/icon/icon-rin.png",
+      "name": "Rin",
+      "url": "https://www.instagram.com/rin_leaders/"
+    },
+    {
+      "icon": "/public/icon/icon-suzuka.png",
+      "name": "Suzuka",
+      "url": "https://www.instagram.com/suzuka_leaders/"
+    },
+    {
+      "icon": "/public/icon/icon-mizyu.png",
+      "name": "Mizyu",
+      "url": "https://www.instagram.com/mizyu_leaders/"
+    },
+    {
+      "icon": "/public/icon/icon-kanon.png",
+      "name": "Kanon",
+      "url": "https://www.instagram.com/kanon_leaders/"
+    }
+  ],
+  "links": [
+    {
+      "icon": "/public/icon/spotify.png",
+      "name": " ",
+      "url": "https://open.spotify.com/artist/4OfU76YhPU04wlmbVFFgTJ?autoplay=true"
+    },
+    {
+      "icon": "/public/icon/youtube.png",
+      "name": " ",
+      "url": "https://www.youtube.com/channel/UCp0iCvHGMwyfPHpYq7n2sPw"
+    },
+    {
+      "icon": "/public/icon/apple-music.png",
+      "name": " ",
+      "url": "https://music.apple.com/br/artist/atarashii-gakko/1231338664"
+    },
+    {
+      "icon": "/public/icon/instagram.png",
+      "name": " ",
+      "url": "https://www.instagram.com/japan_leaders/"
+    }
+  ]
 }
-

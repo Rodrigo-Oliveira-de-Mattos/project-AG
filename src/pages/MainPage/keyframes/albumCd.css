@@ -1,0 +1,43 @@
+@keyframes slide-cover {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 50px;
+  }
+}
+@keyframes slide-cd {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 100px;
+  }
+}
+
+@keyframes return-cover {
+  0% {
+    right: 50px;
+  }
+  100% {
+    right: 0px;
+  }
+}
+@keyframes return-cd {
+  0% {
+    left: 100px;
+  }
+  100% {
+    left: 0px;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-cd {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

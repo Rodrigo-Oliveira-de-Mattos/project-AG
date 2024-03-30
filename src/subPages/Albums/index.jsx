@@ -5,7 +5,9 @@ import { useState } from "react";
 import { useEffect } from "react";
 import BigInfo from "../../components/albums/BigInfo";
 import SwipeDisc from "../../components/albums/SwipeDisc";
+
 import AlbumSpotify from "../../components/albums/AlbumSpotify";
+import styled from "styled-components";
 
 const Albums = () => {
     const [index, setIndex] = useState(0);
@@ -138,17 +140,28 @@ const Albums = () => {
     }
 
     return (
-        <section className="albums" id="albums">
+        <AlbumsSection className="albums" id="albums">
             <BigInfo info={albumsInfo} />
             <div className="swipe-disc" id='swipe-disc'>
                 <button className="prevButton" onClick={() => handlePrevIndex()}></button>
                 <SwipeDisc info={albumsInfo} />
                 <button className="nextButton" onClick={() => handleNextIndex()}></button>
             </div>
-
-            <AlbumSpotify link={ albums } />
-        </section>
+            <AlbumSpotify link={albums} />
+        </AlbumsSection>
     )
 }
 
 export default Albums
+
+const AlbumsSection = styled.section`
+height: calc(100vh - 100px);
+background: radial-gradient(var(--bg-color-2), var(--bg-color-4));
+
+-webkit-mask-image: linear-gradient(transparent , black 10%);
+  mask-image: linear-gradient(transparent , black 10%);
+  
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+place-items: center;
+`
