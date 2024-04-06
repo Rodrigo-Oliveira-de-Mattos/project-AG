@@ -32,7 +32,7 @@ const MemberSection = styled.section`
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
-    min-height: 100svh;
+    min-height: calc(100svh - 100px);
     padding: 4rem 0;
 `
 

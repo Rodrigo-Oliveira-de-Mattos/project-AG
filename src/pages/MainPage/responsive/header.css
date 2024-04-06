@@ -1,102 +1,6 @@
-@media (424px < width < 1200px) {
-  #hero {
-    #hero__img {
-      bottom: -30rem;
-      left: 30rem;
-      z-index: -1;
-    }
-
-    .hero__infos {
-      justify-content: start;
-      padding: 4rem 0;
-      gap: 4rem;
-
-      .hero__infos--texts {
-        justify-content: space-around;
-        padding: 0 2rem;
-      }
-
-      .hero__infos--links {
-        flex-direction: row-reverse;
-        position: absolute;
-        bottom: 5rem;
-        ul {
-          display: none;
-        }
-      }
-    }
-  }
-
-  #members {
-    grid-template-columns: repeat(2, 1fr);
-    width: fit-content;
-    gap: 4rem;
-    padding: 8rem 0;
-    margin: 0 auto;
-    transform: scale(0.9);
-  }
-}
-
-@media (width < 1200px) {
-  #albums.albums {
-    height: fit-content;
-    max-width: 100svw;
-    padding: 0 0 4rem;
-    grid-template-columns: repeat(1, 1fr);
-    .big-info {
-      display: none;
-      transform: scale(0.8) translateY(6rem);
-      position: absolute;
-      z-index: 9;
-    }
-
-    #swipe-disc {
-      height: fit-content;
-      gap: 5rem;
-      @media (width <= 424px) {
-        gap: 0;
-      }
-    }
-  }
-
-  @media (width >= 424px) {
-    #albums {
-      .big-info {
-        overflow-y: hidden;
-        height: fit-content;
-      }
-      #swipe-disc.swipe-disc {
-        max-width: 40rem;
-      }
-    }
-  }
-}
-
-@media (width <= 650px) {
-  #members {
-    grid-template-columns: 1fr;
-    width: fit-content;
-    gap: 2rem;
-    padding: 0;
-    margin: 0 auto;
-    transform: scale(0.9);
-  }
-
-  #swipe-disc.swipe-disc {
-    overflow: hidden;
-    font-size: 0.5rem;
-
-    .album-swipe {
-      transform: scale(0.6);
-      width: 70rem;
-    }
-
-    .swipe-disc__mini-info {
-      width: 33rem;
-      .mini-info.title {
-        width: 100%;
-      }
-    }
+@media (width >= 769px) {
+  .hamburguer {
+    display: none;
   }
 }
 
@@ -218,26 +122,6 @@
 
       .not-active span:nth-child(3) {
         animation: ease 0.7s bottom-2 forwards;
-      }
-    }
-  }
-
-  #hero {
-    #hero__img {
-      bottom: -40rem;
-      left: 26rem;
-      z-index: -1;
-    }
-
-    .hero__infos {
-      .hero__infos--links {
-        flex-direction: row;
-        ul {
-          display: flex;
-          li:nth-child(odd) {
-            display: none;
-          }
-        }
       }
     }
   }

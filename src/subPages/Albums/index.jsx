@@ -141,7 +141,9 @@ const Albums = () => {
 
     return (
         <AlbumsSection className="albums" id="albums">
-            <BigInfo info={albumsInfo} />
+            <div id="big-info-external-modal">
+                <BigInfo info={albumsInfo} />   
+            </div>
             <div className="swipe-disc" id='swipe-disc'>
                 <button className="prevButton" onClick={() => handlePrevIndex()}></button>
                 <SwipeDisc info={albumsInfo} />

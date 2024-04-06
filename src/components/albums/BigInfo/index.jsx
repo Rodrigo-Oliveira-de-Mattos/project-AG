@@ -2,7 +2,8 @@ import styled from "styled-components"
 
 const BigInfo = ({ info }) => {
     return (
-        <DivInfos className="big-info">
+        <DivInfos className="big-info" id="big-info">
+            <Close id="close-modal">X</Close>
             <Format className="big-info__format">
                 <p>{info.format}</p>
             </Format>
@@ -106,4 +107,24 @@ gap: 2rem;
 .big-info--tracks {
   justify-content: start;
 }
+`
+
+const Close = styled.i`
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  background-color: var(--tema-claro-red);
+  color: var(--tema-claro-1);
+  box-shadow: -1px 0 1rem -1px var(--tema-claro-5);
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  place-items: center;
+  cursor: pointer;
+  display: none;
+
+  &:hover{
+    background-color: var(--tema-claro-7);
+    transform: scale(1.1);
+  }
 `

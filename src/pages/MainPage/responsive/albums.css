@@ -1,0 +1,103 @@
+@media (width >= 1200px) {
+  #year,
+  #tracks,
+  #mini-learn-more {
+    display: none;
+  }
+}
+
+@media (width <= 1500px) {
+  #albums {
+    padding: 0 4rem;
+    gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+
+    .album-spotify {
+      display: none;
+    }
+  }
+}
+
+@media (width <= 1200px) {
+  #albums.albums {
+    max-width: 100svw;
+    padding: 0 0 2rem;
+    grid-template-columns: repeat(1, 1fr);
+
+    #big-info-external-modal {
+      background-color: var(--bg-color-6);
+      height: 100svh;
+      width: 100%;
+      overflow: hidden;
+      cursor: pointer;
+      place-items: center;
+      display: none;
+      position: absolute;
+      z-index: 8;
+      .big-info {
+        position: absolute;
+
+        transform: scale(1.2);
+      }
+    }
+    #swipe-disc {
+      width: 100%;
+      overflow: hidden;
+      height: fit-content;
+
+      .prevButton,
+      .nextButton {
+        width: 35%;
+      }
+
+      @media (width >= 650px) {
+        gap: 5rem;
+      }
+    }
+  }
+
+  #albums.albums.modal-open {
+    height: 100svh;
+    padding: 0;
+    #swipe-disc {
+      display: none;
+    }
+
+    #big-info-external-modal.show {
+      display: grid;
+
+      .big-info #close-modal{
+        display: grid;
+      }
+    }
+  }
+}
+
+@media (width <= 650px) {
+  #albums.albums {
+    height: fit-content;
+    #big-info-external-modal {
+      .big-info {
+        transform: scale(0.8) translateY(6rem);
+      }
+    }
+  }
+
+  #swipe-disc.swipe-disc {
+    overflow: hidden;
+    font-size: 0.5rem;
+    gap: 0;
+
+    .album-swipe {
+      transform: scale(0.6);
+      width: 70rem;
+    }
+
+    .swipe-disc__mini-info {
+      width: 33rem;
+      .mini-info.title {
+        width: 100%;
+      }
+    }
+  }
+}
